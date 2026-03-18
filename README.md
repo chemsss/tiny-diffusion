@@ -4,9 +4,9 @@ Ce dépôt explore le fonctionnement, l'implémentation et la mise à l'échelle
 
 Le projet a débuté comme une étude des processus de diffusion sur des distributions de points 2D en reprenant le projet [`tiny-diffusion`](https://github.com/dataflowr/Project-tiny-diffusion) de [dataflowr](https://github.com/dataflowr/notebooks), avant d'être étendu et mis à l'échelle pour générer des images complexes (le dataset MNIST) via des architectures d'état de l'art (U-Net, EMA, Self-Attention) et des techniques de génération contrôlée (Classifier-Free Guidance).
 
-## 🚀 Le projet
+## Le projet
 
-Le dépôt est structuré en trois grandes étapes d'apprentissage et d'implémentation :
+Le dépôt est composé de 3 implémentations des modèles de diffusion :
 
 ### 1. Modèles de diffusion sur données 2D (`ddpm.py`)
 Ce fichier du projet [`tiny-diffusion`](https://github.com/dataflowr/Project-tiny-diffusion) n'a pas été modifié.  
